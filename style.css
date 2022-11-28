@@ -1,0 +1,514 @@
+header{
+    position: absolute;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: left;
+}
+.logo{
+    background: none;
+    width: 100%;
+    padding: 1.5rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
+    
+}
+.left:hover{
+    bottom: 70px;
+}
+.right:hover{
+    bottom: 70px;
+
+}
+.mid:hover{
+    bottom: 70px;
+
+}
+.list-item{
+    background-color:none;
+}
+
+.header .list-item .item{
+    margin-left: 170px;
+}
+.list-item .item{
+    text-align: center;
+    
+}
+.list-item .item a{
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+/* sc1 */
+
+.sc1{
+    position: relative;
+    background-image: url('./img/anh1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+
+.bg{
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: relative;
+    
+}
+.left , .mid ,.right{
+    position: relative;
+    justify-content: center;
+    width: 33.33%;
+    height: 100vh;
+    border-right: 2px white solid;
+} 
+.content{
+    position: absolute;
+    bottom: 5%;
+    font-size: 15px;
+}
+.sc1 .bg .left .content h4, p{
+    text-align: center;
+}
+.mid .content  {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.right .content  {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.right .content h4 {
+    text-align: center;
+}
+
+
+
+/* section2 */
+.sc2{
+   
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+.sc2 .title {
+    padding-top: 30px;
+}
+.sc2 .text{
+    display: flex;
+    margin-top: 220px;
+    margin-left: 260px;
+    gap:125px
+}
+
+.card-image img {
+  transition: 0.8s;
+}
+.card-image:hover img {
+  transform: scale(1.2, 1.2);
+}
+.sc2 .text a{
+    font-family: "Oswald", "Oswald", sans-serif;
+    text-decoration: none;
+    color: #595959;
+   
+}
+
+.sc2 .title{
+    text-align: center;
+    
+}
+.card-wrapper{
+    display: flex;
+    align-items: center;
+   
+    padding-left: 200px;
+}
+.card-image{
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 50px;
+    gap: 27px;
+}
+.card-image .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+   
+    
+}
+
+
+/* SC3 */
+
+.sc3{
+   
+    height: 600px;
+    display: flex;
+    background-color: white;
+}
+
+
+
+.sc3 .row {
+	
+	grid-template-columns: 50% 50%;
+}
+
+ .sc3 .row .col-md-6 {
+	text-align: right;
+	padding-top: 8.5rem;
+	font-family: "Oswald", "Oswald", sans-serif;
+	letter-spacing: 0.01rem;
+
+
+} 
+.sc3 .row .col-md-6 img{
+    padding-right: 50px;
+    padding-bottom: 170px;
+    align-items: left;
+
+}
+
+.sc3 .row .col-md-6 h3 {
+	color: #575454;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-top:1rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.sc3 .row .col-md-6 h6 {
+	font-size: 17px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #999;
+    padding: 0 10px;
+
+}
+.sc3 .row .col-md-6 button{
+    background-color: orange;
+    border-radius: 16px ;
+}
+
+
+
+/* SC4 */
+
+.sc4 .row div{
+    margin-top: 30px;
+}
+.sc4{
+    width:auto;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #595959;
+}
+.sc4 .img1{
+    width:250px;
+    display: block;
+    margin:auto;
+}
+
+.icon1{
+    display: block;
+    margin-left: 50px;
+}
+.icon2{
+    margin-left: 380px;
+}
+.icon3{
+    margin-left: 710px;
+}.icon4{
+    margin-left: 1040px;
+}
+.sc4 .icon i{
+    margin-top: 80px;
+    position: absolute;
+}
+.sc4 .main-text{
+    text-align: center;
+    padding-top: 50px;
+    color: mediumturquoise;
+}
+.sc4 .title{
+    text-align: center;
+}
+.sc4 .text a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    
+}  
+/* .sc4 .row .col-sm-3 img {
+    opacity: 1; -webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+  } 
+.sc4 .row .col-sm-3:hover img{
+    -webkit-transform: translate(20px,-50px); transform: translate(20px,-50px); opacity: 0.4;
+} */
+  .col-sm-3 img{
+    border: 1px solid aqua;
+  }
+  
+
+
+  .sc4 .price-item{
+    gap:300px;
+    margin-left: 120px;
+   
+   
+  }
+  .icon button{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 170px;
+    border-radius: 18px;
+    background: black;
+    color: sandybrown;
+  }
+
+  .price-item b:hover {
+    background-color:mediumturquoise ;
+}
+   
+ /* .fa-shopping-cart {
+    display: none;
+
+}  */
+
+  .sc4 .text a:hover{
+    color:orange;
+    transition: all 0.5s ease 0s;
+  
+  }
+  
+/* SC5 */
+
+
+.sc5{
+    height: 500px;
+    display: flex;
+    background-color:white}
+
+#text{
+    background-color:aliceblue;
+    padding-top: 8.5rem;
+}
+
+.sc5 .row {
+	height: 500px;
+	grid-template-columns: 50% 50%;
+}
+
+ .sc5 .row .col-md-6  {
+	text-align: right;
+	
+	font-family: "Oswald", "Oswald", sans-serif;
+	letter-spacing: 0.01rem;
+
+
+} 
+
+
+.sc5 .row .col-md-6 h3 {
+	color: #575454;
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin-top:1rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.sc5 .row .col-md-6 h6 {
+	font-size: 17px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #999;
+    padding: 0 10px;
+
+}
+.sc5 .row .col-md-6 button{
+    background-color: orange;
+    border-radius: 16px ;
+}
+
+/* SC6 */
+.sc6{
+	height: 600px;
+	background-color: #999;
+}
+.sc6 .wrap{
+    
+    justify-content: center
+}
+.sc6 .container .text-title2{
+	color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.sc6 .container .text-title1{
+	color: white;
+	font-family: "Oswald",sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    padding-top:1rem;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+.sc6 .container .wrap .main-text{
+	height: 250px;
+	width: 216px;
+	border-radius: 5%;
+	background-color: #595959;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.triangle {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #595959;
+	margin-left: 40%;
+    margin-bottom: 30px;
+	}
+
+.sc6 .container .wrap .icon{
+	color: #d4651f;
+	text-align: center;
+	padding-top: 2rem;
+	font-size: 20px;
+	
+}
+.sc6 .container .wrap{
+	display: flex;
+	flex-direction: row;
+}
+.sc6 .container .review_details .main-text .name p{
+	text-align: center;
+    font-weight: 200;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #999;
+
+}
+.sc6 .container .avatar img{
+	align-items: center;
+	border-radius: 50%;
+}
+
+
+.sc6 .container .wrap p{
+	color: #fff;
+	font-family: "Oswald",sans-serif;
+	padding: 0.8rem;
+	border-radius: 160px;
+
+
+}
+
+/* SC7 */
+.sc7{
+	height: 500px;
+	background-image: url("./img/anh3.webp" ) ;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+.sc7 .text-title h3{
+	text-align: center;
+    padding: 0 30px;
+	font-family: "Oswald", "Oswald", sans-serif;
+    font-weight: 400;
+	color:rgba(203, 95, 18, 0.644);
+	font-size: 40px;
+	padding-top: 13rem;
+
+}
+.sc7 .text-title{
+	text-align: center;
+}
+.sc7 .text-title p{
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+	color:gray;
+	font-family: "Oswald", "Oswald", sans-serif;
+
+}
+
+
+.sc7 .text-title .button{
+	
+	height: 50px;
+	width: 150px;
+	border-radius: 35px;
+	border: solid black 3px;
+	background:#d4651f ;
+	color:black ;
+	font-size: 18px;
+}
+.sc7 .text-title .button:hover{
+	background: white;
+	border: none;
+}
+
+.buy{
+
+    display: flex-end;
+}
+.contact{
+    list-style: none;
+}
+.payment{
+    list-style: none;
+}
+
+.img-content ,
+.card-content{
+    padding: 10px 14px;
+}
+
+.site-footer{
+    background-color: sienna ;
+    padding-top: 30px;
+}
+.footer-widget .item{
+    list-style: none;
+   
+}
+.contact a{
+    color: mediumturquoise;
+ 
+}
+.footer-widget {
+    color: white;
+}
+.list-menu a{
+    color: mediumturquoise;
+}
+/* .payment li{
+    display: inline
+} */
